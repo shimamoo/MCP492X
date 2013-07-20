@@ -2,13 +2,12 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-#DataTypesName	KEYWORD1
+MCP4922	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-MCP4922	KEYWORD2
 begin	KEYWORD2
 set	KEYWORD2
 update	KEYWORD2
