@@ -1,6 +1,7 @@
 #ifndef MCP4922_h
 #define MCP4922_h
 
+//クラス定義
 class MCP4922
 {
 public:
@@ -8,9 +9,9 @@ public:
     void begin(unsigned int selectDAC, unsigned int BUF, unsigned int GA, unsigned int SHDN);
     void set(unsigned int val);
 private:
-    int SS;
-    int LDAC;
-    unsigned int settingVal;
+    int _SS;
+    int _LDAC;
+    unsigned int _settingVal;
 };
 
 #endif
