@@ -1,7 +1,6 @@
 #ifndef MCP4922_h
 #define MCP4922_h
 
-//クラス定義
 class MCP4922
 {
 public:
