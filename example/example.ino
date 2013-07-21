@@ -6,8 +6,8 @@
 //SDI -> MOSI(D11/D51)
 
 
-MCP4922 DAC1(9, 10);
-MCP4922 DAC2(9, 10);
+MCP492X DAC1(9, 10);
+MCP492X DAC2(9, 10);
 //(LDAC pin, CS pin)
 
 void setup() {
