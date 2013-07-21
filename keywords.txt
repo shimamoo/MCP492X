@@ -2,7 +2,7 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-MCP4922	KEYWORD1
+MCP492X	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)

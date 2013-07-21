@@ -1,9 +1,14 @@
-#include "MCP4922.h"
+#include "MCP492X.h"
 #include <SPI.h>
+
+//MCP492X -> Arduino(Uno/Mega)
+//SCK -> SCK(D13/D52)
+//SDI -> MOSI(D11/D51)
+
 
 MCP4922 DAC1(9, 10);
 MCP4922 DAC2(9, 10);
-//(LDAC pin, SlaveSelect pin)
+//(LDAC pin, CS pin)
 
 void setup() {
   
